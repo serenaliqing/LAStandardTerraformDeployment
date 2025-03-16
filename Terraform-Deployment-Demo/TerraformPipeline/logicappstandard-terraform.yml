@@ -104,7 +104,7 @@ stages:
         - task: AzureCLI@2
           displayName: 'Invoke PATCH Request'
           inputs:
-            azureSubscription: 'MCAPS-Support-REQ-75871-2024-qili7(797444e4-d923-42a4-9a85-b1176c77adff)'
+            azureSubscription: 'tfdeploy0316'
             scriptType: 'bash'
             scriptLocation: 'inlineScript'
             inlineScript: |
